@@ -25,7 +25,13 @@ chrome.webNavigation.onBeforeNavigate.addListener(function(data) {
             if (
               url.href.startsWith("https://optimistic.etherscan.io/search?") ||
               url.href.startsWith("https://polygonscan.com/search?") ||
-              url.href.startsWith("https://arbiscan.io/search?")
+              url.href.startsWith("https://arbiscan.io/search?") ||
+              url.href.startsWith("https://songbird-explorer.flare.network/search?") ||
+              url.href.startsWith("https://flare-explorer.flare.network/search?") ||
+              url.href.startsWith("https://basescan.org/search?") ||
+              url.href.startsWith("https://etherscan.io/search?") ||
+              url.href.startsWith("https://bscscan.com/search?") ||
+              url.href.startsWith("https://ftmscan.com/search?")
             ) {
               // if so, redirect user to domain owner's address page on block explorer
               getDomainHolder(domainName, tldData.address, tldData.chainId).then(function(resp) {
@@ -40,6 +46,15 @@ chrome.webNavigation.onBeforeNavigate.addListener(function(data) {
               getDomainHolder(domainName, tldData.address, tldData.chainId).then(function(resp) {
                 if (resp && resp.startsWith("0x")) {
                   return chrome.tabs.update(data.tabId, { url: "https://" + url.host + "/xdai/mainnet/address/" + resp });
+                } else {
+                  return chrome.tabs.update(data.tabId, { url: data.url });
+                }
+              }); //
+            } else if (url.href.startsWith("https://explorer.zksync.io/search")) {
+              // gnosis chain explorer support
+              getDomainHolder(domainName, tldData.address, tldData.chainId).then(function(resp) {
+                if (resp && resp.startsWith("0x")) {
+                  return chrome.tabs.update(data.tabId, { url: "https://" + url.host + "/address/" + resp });
                 } else {
                   return chrome.tabs.update(data.tabId, { url: data.url });
                 }
