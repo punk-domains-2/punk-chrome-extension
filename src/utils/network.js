@@ -38,13 +38,13 @@ export const getFallbackProvider = (networkId) => {
   } else if (networkId === 8453) {
     // Base
     urls = [
-      "https://rpc.notadegen.com/base"
+      "https://mainnet.base.org"
     ];
   // ++
   } else if (networkId === 1) {
     // Ethereum Mainnet
     urls = [
-      "https://eth-mainnet.public.blastapi.io"
+      "https://mainnet.infura.io/v3/"
     ];
   } else if (networkId === 56) {
     // BNB Smart Chain Mainnet
@@ -54,7 +54,7 @@ export const getFallbackProvider = (networkId) => {
   } else if (networkId === 250) {
     // Fantom Opera
     urls = [
-      "https://fantom.api.onfinality.io/public"
+      "https://rpc.fantom.network"
     ];
   } else if (networkId === 324) {
     // zkSync Era Mainnet
