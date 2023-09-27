@@ -11,7 +11,6 @@ export const getFallbackProvider = (networkId) => {
   } else if (networkId === 100) {
     // Gnosis Chain
     urls = [
-      "https://rpc.xdaichain.com",
       "https://rpc.gnosischain.com"
     ];
   } else if (networkId === 137) {
