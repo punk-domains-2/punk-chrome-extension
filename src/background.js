@@ -31,7 +31,8 @@ chrome.webNavigation.onBeforeNavigate.addListener(function(data) {
               url.href.startsWith("https://basescan.org/search?") ||
               url.href.startsWith("https://etherscan.io/search?") ||
               url.href.startsWith("https://bscscan.com/search?") ||
-              url.href.startsWith("https://ftmscan.com/search?")
+              url.href.startsWith("https://ftmscan.com/search?") ||
+              url.href.startsWith("https://gnosisscan.io/search?")
             ) {
               // if so, redirect user to domain owner's address page on block explorer
               getDomainHolder(domainName, tldData.address, tldData.chainId).then(function(resp) {
