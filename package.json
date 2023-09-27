@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "export NODE_ENV=development && webpack --mode='development' --watch --config ./webpack.config.js",
-    "build": "export NODE_ENV=production && webpack --mode='production' --config ./webpack.config.js"
+    "build": "export NODE_ENV=production && webpack --mode='production' --config ./webpack.config.js",
+    "serve-window": "set NODE_ENV=development && webpack --config ./webpack.config.js",
+    "build-window": "set NODE_ENV=production && webpack --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC",
