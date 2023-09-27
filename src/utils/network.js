@@ -24,6 +24,43 @@ export const getFallbackProvider = (networkId) => {
     urls = [
       "https://arb1.arbitrum.io/rpc"
     ];
+  // +
+  } else if (networkId === 19) {
+    // Songbird Canary-Network
+    urls = [
+      "https://songbird-api.flare.network/ext/C/rpc"
+    ];
+  } else if (networkId === 14) {
+    // Flare Mainnet
+    urls = [
+      "https://flare-api.flare.network/ext/C/rpc"
+    ];
+  } else if (networkId === 8453) {
+    // Base
+    urls = [
+      "https://rpc.notadegen.com/base"
+    ];
+  // ++
+  } else if (networkId === 1) {
+    // Ethereum Mainnet
+    urls = [
+      "https://eth-mainnet.public.blastapi.io"
+    ];
+  } else if (networkId === 56) {
+    // BNB Smart Chain Mainnet
+    urls = [
+      "https://bsc-dataseed.binance.org"
+    ];
+  } else if (networkId === 250) {
+    // Fantom Opera
+    urls = [
+      "https://fantom.api.onfinality.io/public"
+    ];
+  } else if (networkId === 324) {
+    // zkSync Era Mainnet
+    urls = [
+      "https://mainnet.era.zksync.io"
+    ];
   }
 
   if (urls) {
