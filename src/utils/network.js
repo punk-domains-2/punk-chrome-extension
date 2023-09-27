@@ -11,7 +11,6 @@ export const getFallbackProvider = (networkId) => {
   } else if (networkId === 100) {
     // Gnosis Chain
     urls = [
-      "https://rpc.xdaichain.com",
       "https://rpc.gnosischain.com"
     ];
   } else if (networkId === 137) {
@@ -23,6 +22,43 @@ export const getFallbackProvider = (networkId) => {
     // Arbitrum
     urls = [
       "https://arb1.arbitrum.io/rpc"
+    ];
+  // +
+  } else if (networkId === 19) {
+    // Songbird Canary-Network
+    urls = [
+      "https://songbird-api.flare.network/ext/C/rpc"
+    ];
+  } else if (networkId === 14) {
+    // Flare Mainnet
+    urls = [
+      "https://flare-api.flare.network/ext/C/rpc"
+    ];
+  } else if (networkId === 8453) {
+    // Base
+    urls = [
+      "https://mainnet.base.org"
+    ];
+  // ++
+  } else if (networkId === 1) {
+    // Ethereum Mainnet
+    urls = [
+      "https://mainnet.infura.io/v3/"
+    ];
+  } else if (networkId === 56) {
+    // BNB Smart Chain Mainnet
+    urls = [
+      "https://bsc-dataseed.binance.org"
+    ];
+  } else if (networkId === 250) {
+    // Fantom Opera
+    urls = [
+      "https://rpc.fantom.network"
+    ];
+  } else if (networkId === 324) {
+    // zkSync Era Mainnet
+    urls = [
+      "https://mainnet.era.zksync.io"
     ];
   }
 

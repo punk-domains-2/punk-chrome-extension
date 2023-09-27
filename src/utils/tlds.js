@@ -1,5 +1,6 @@
 export const getTlds = () => {
   return {
+    // Optimism
     ".wagmi": {
       "address": "0xC3E8922657686EC63eaaa9FC1Fe06826802e7e0f",
       "chainId": 10
@@ -20,8 +21,16 @@ export const getTlds = () => {
       "address": "0xC16aCAdf99E4540E6f4E6Da816fd6D2A2C6E1d4F",
       "chainId": 10
     },
+    ".pool": {
+      "address": "0xf2C9E463592BD440f0D422E944E5F95c79404586",
+      "chainId": 10
+    },
+    ".dope": {
+      "address": "0x1d33989185AA79a3B9173bC7B1137E527C6A262b",
+      "chainId": 10
+    },
   
-  
+    // Gnosis Chain
     ".gnosis": {
       "address": "0xC3E8922657686EC63eaaa9FC1Fe06826802e7e0f",
       "chainId": 100
@@ -34,12 +43,12 @@ export const getTlds = () => {
       "address": "0x3490c9817c45a2a394b11a3807f58a8325235ae0",
       "chainId": 100
     },
-  
-  
-      ".polygon": {
-      "address": "0xa450bc33d0940d25fB0961c592fb440Fa63ABE03",
-      "chainId": 137
+    ".giveth": {
+      "address": "0xEEa3e593CDAf9D18780f9D58BAD142AF6Bd9522a",
+      "chainId": 100
     },
+  
+    // Polygon PoS Chain
     ".ape": {
       "address": "0x794a8390D94E32b086908D2bA9D66300aA163C62",
       "chainId": 137
@@ -56,19 +65,88 @@ export const getTlds = () => {
       "address": "0xe8b97542A433e7eCc7bB791872af04DF02A1a6E4",
       "chainId": 137
     },
-  
-  
-    ".arbi": {
-      "address": "0xe97456E0fB121F65422F43ccbd4A07a0e269B534",
-      "chainId": 42161
+    ".basin": {
+      "address": "0x4bF5A99eA2F8De061f7D77BA9edd749503D945Da",
+      "chainId": 137
     },
+  
+    // Arbitrum
     ".arbitrum": {
       "address": "0x337EB5061943ECd247649d58D35Dbab0b40D67E0",
+      "chainId": 42161
+    },
+    ".arbi": {
+      "address": "0xe97456E0fB121F65422F43ccbd4A07a0e269B534",
       "chainId": 42161
     },
     ".smol": {
       "address": "0xE0d972817e94c5FF9BDc49a63d8927A0bA833E4f",
       "chainId": 42161
-    }
+    },
+    ".punkangel": {
+      "address": "0xcC66213645474a7B61BAf95330D01e50789eaF4b",
+      "chainId": 42161
+    },
+    ".ppl": {
+      "address": "0xbC9d19e5f97a572f428F7292DBf3dc182Cc05C82",
+      "chainId": 42161
+    },
+    ".misie": {
+      "address": "0x526Ff108F5d422d0e1d6650E2Bc015BBE1fdb058",
+      "chainId": 42161
+    },
+
+    // +
+    // Songbird
+    ".sgb": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 19
+    },
+    ".satrap": {
+      "address": "0xeFBE0b46649B7A0F1e1D49CCa98aD9CF6bcFB096",
+      "chainId": 19
+    },
+
+    // Flare Mainnet
+    ".flr": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 14
+    },
+
+    // Base
+    ".basebook": {
+      "address": "0x4087fb91A1fBdef05761C02714335D232a2Bf3a1",
+      "chainId": 8453
+    },
+
+    // ++
+    // BNB Smart Chain Mainnet
+    ".safu": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 56
+    },
+    ".huwa": {
+      "address": "0xeFBE0b46649B7A0F1e1D49CCa98aD9CF6bcFB096",
+      "chainId": 56
+    },
+
+    // Ethereum Mainnet
+    ".wildbunch": {
+      "address": "0xaa9E5Ade68C9C3Ea967Dc5dde731fd1f797152Cb",
+      "chainId": 1
+    },
+
+    // Fantom Opera
+    ".fantom": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 250
+    },
+
+    // zkSync Era
+    ".zksoul": {
+      "address": "0xe36507aD67Ac0aE6D27D22b407A9338b136315df",
+      "chainId": 324
+    },
+
   }  
 }
