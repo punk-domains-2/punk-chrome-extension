@@ -13,6 +13,8 @@ Go to Chrome > Extensions > Load unpacked (find the dist folder)
 
 ### Publish
 
+**Important:** Increase the version number in `extension.config.js`!
+
 ```bash
 npm run build
 ```
