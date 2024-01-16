@@ -1,5 +1,103 @@
 export const getTlds = () => {
   return {
+    // Arbitrum One
+    ".arbitrum": {
+      "address": "0x337EB5061943ECd247649d58D35Dbab0b40D67E0",
+      "chainId": 42161
+    },
+    ".arbi": {
+      "address": "0xe97456E0fB121F65422F43ccbd4A07a0e269B534",
+      "chainId": 42161
+    },
+    ".smol": {
+      "address": "0xE0d972817e94c5FF9BDc49a63d8927A0bA833E4f",
+      "chainId": 42161
+    },
+    ".punkangel": {
+      "address": "0xcC66213645474a7B61BAf95330D01e50789eaF4b",
+      "chainId": 42161
+    },
+    ".ppl": {
+      "address": "0xbC9d19e5f97a572f428F7292DBf3dc182Cc05C82",
+      "chainId": 42161
+    },
+    ".misie": {
+      "address": "0x526Ff108F5d422d0e1d6650E2Bc015BBE1fdb058",
+      "chainId": 42161
+    },
+
+    // Arbitrum Nova
+    ".alnova": {
+      "address": "0x4087fb91A1fBdef05761C02714335D232a2Bf3a1",
+      "chainId": 42170
+    },
+
+    // Base
+    ".basebook": {
+      "address": "0x4087fb91A1fBdef05761C02714335D232a2Bf3a1",
+      "chainId": 8453
+    },
+    ".based": {
+      "address": "0x273dB54929d8392c1997Be361Da89D41af202a49",
+      "chainId": 8453
+    },
+    ".basepunk": {
+      "address": "0xc2C543D39426bfd1dB66bBde2Dd9E4a5c7212876",
+      "chainId": 8453
+    },
+
+    // BNB Smart Chain Mainnet
+    ".safu": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 56
+    },
+    ".huwa": {
+      "address": "0xeFBE0b46649B7A0F1e1D49CCa98aD9CF6bcFB096",
+      "chainId": 56
+    },
+
+    // Fantom Opera
+    ".fantom": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 250
+    },
+
+    // Flare Mainnet
+    ".flr": {
+      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
+      "chainId": 14
+    },
+  
+    // Gnosis Chain
+    ".gnosis": {
+      "address": "0xC3E8922657686EC63eaaa9FC1Fe06826802e7e0f",
+      "chainId": 100
+    },
+    ".xdai": {
+      "address": "0xbca24d86e4ad1e011278faefc4ff191a731411ec",
+      "chainId": 100
+    },
+    ".bright": {
+      "address": "0x3490c9817c45a2a394b11a3807f58a8325235ae0",
+      "chainId": 100
+    },
+    ".giveth": {
+      "address": "0xEEa3e593CDAf9D18780f9D58BAD142AF6Bd9522a",
+      "chainId": 100
+    },
+
+    // Kroma
+    ".alkroma": {
+      "address": "0x6c66f1d5684630fb69350a7a88bcca60629d7252",
+      "chainId": 255
+    },
+
+    // Linea
+    ".alinea": {
+      "address": "0x6c66f1d5684630fb69350a7a88bcca60629d7252",
+      "chainId": 59144
+    },
+
     // Optimism
     ".wagmi": {
       "address": "0xC3E8922657686EC63eaaa9FC1Fe06826802e7e0f",
@@ -30,24 +128,6 @@ export const getTlds = () => {
       "chainId": 10
     },
   
-    // Gnosis Chain
-    ".gnosis": {
-      "address": "0xC3E8922657686EC63eaaa9FC1Fe06826802e7e0f",
-      "chainId": 100
-    },
-    ".xdai": {
-      "address": "0xbca24d86e4ad1e011278faefc4ff191a731411ec",
-      "chainId": 100
-    },
-    ".bright": {
-      "address": "0x3490c9817c45a2a394b11a3807f58a8325235ae0",
-      "chainId": 100
-    },
-    ".giveth": {
-      "address": "0xEEa3e593CDAf9D18780f9D58BAD142AF6Bd9522a",
-      "chainId": 100
-    },
-  
     // Polygon PoS Chain
     ".ape": {
       "address": "0x794a8390D94E32b086908D2bA9D66300aA163C62",
@@ -69,34 +149,17 @@ export const getTlds = () => {
       "address": "0x4bF5A99eA2F8De061f7D77BA9edd749503D945Da",
       "chainId": 137
     },
-  
-    // Arbitrum
-    ".arbitrum": {
-      "address": "0x337EB5061943ECd247649d58D35Dbab0b40D67E0",
-      "chainId": 42161
+
+    // Scroll
+    ".alscroll": {
+      "address": "0x4087fb91A1fBdef05761C02714335D232a2Bf3a1",
+      "chainId": 534352
     },
-    ".arbi": {
-      "address": "0xe97456E0fB121F65422F43ccbd4A07a0e269B534",
-      "chainId": 42161
-    },
-    ".smol": {
-      "address": "0xE0d972817e94c5FF9BDc49a63d8927A0bA833E4f",
-      "chainId": 42161
-    },
-    ".punkangel": {
-      "address": "0xcC66213645474a7B61BAf95330D01e50789eaF4b",
-      "chainId": 42161
-    },
-    ".ppl": {
-      "address": "0xbC9d19e5f97a572f428F7292DBf3dc182Cc05C82",
-      "chainId": 42161
-    },
-    ".misie": {
-      "address": "0x526Ff108F5d422d0e1d6650E2Bc015BBE1fdb058",
-      "chainId": 42161
+    ".scrolly": {
+      "address": "0xc2C543D39426bfd1dB66bBde2Dd9E4a5c7212876",
+      "chainId": 534352
     },
 
-    // +
     // Songbird
     ".sgb": {
       "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
@@ -107,39 +170,10 @@ export const getTlds = () => {
       "chainId": 19
     },
 
-    // Flare Mainnet
-    ".flr": {
-      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
-      "chainId": 14
-    },
-
-    // Base
-    ".basebook": {
+    // ZKFair
+    ".fairchat": {
       "address": "0x4087fb91A1fBdef05761C02714335D232a2Bf3a1",
-      "chainId": 8453
-    },
-
-    // ++
-    // BNB Smart Chain Mainnet
-    ".safu": {
-      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
-      "chainId": 56
-    },
-    ".huwa": {
-      "address": "0xeFBE0b46649B7A0F1e1D49CCa98aD9CF6bcFB096",
-      "chainId": 56
-    },
-
-    // Ethereum Mainnet
-    ".wildbunch": {
-      "address": "0xaa9E5Ade68C9C3Ea967Dc5dde731fd1f797152Cb",
-      "chainId": 1
-    },
-
-    // Fantom Opera
-    ".fantom": {
-      "address": "0xBDACF94dDCAB51c39c2dD50BffEe60Bb8021949a",
-      "chainId": 250
+      "chainId": 42766
     },
 
     // zkSync Era
